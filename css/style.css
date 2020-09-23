@@ -1,0 +1,22 @@
+/* regole generali */
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header{
+  background-color: green;
+  height: 300px;
+}
+
+section{
+background-color: yellow;
+height: 200px;
+}
+
+footer{
+background-color: brown;
+height: 200px; 
+}
