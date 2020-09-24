@@ -107,6 +107,17 @@ section{
 
 }
 
+#container{
+  background-image: url(../img/jumbotron.png);
+ background-size: cover;
+ width: 100%;
+ position: relative;
+ height:500px;
+}
+
+
+
+
 h1{
 
   width: 400px;
