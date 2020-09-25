@@ -12,7 +12,7 @@ body{
   font-family:sans-serif;
 }
 
-.clearfix::after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -126,10 +126,26 @@ p{
   text-align: center;
 }
 
+/*margin-bottom: 30px;
+width: 1000px;
+height: 800px;
+background-color: red;*/
+
+}
+.menu-crm{
+  display: inline-block;
+  margin-right: 5px;
+}
+
 .blocco-centrale *{
   /*background-color: green;*/
   margin: auto;
   text-align: center;
+}
+.blocco-centrale>img{
+  height: 200px;
+  width: auto;
+
 }
 
 .container-centrale{
@@ -152,40 +168,43 @@ p{
   margin-left: 50px;
 }
 
-.colonne{
+.colonna1{
   float: left;
   width: 30%;
-  height: 200px;
-/*  background-color: pink;*/
+  height: 400px;
   margin-right: 3%;
   margin-bottom: 20px;
+  margin-top: 30px;
   text-align: center;
   word-wrap: break-word;
-  padding: 5%;
+  padding: 5px;
+  background-color: red;*/
 }
 
-.colonne{
+.colonna2{
   float: left;
   width: 30%;
-  height: 200px;
-/*  background-color: pink;*/
+  height: 400px;
   margin-right: 3%;
   margin-bottom: 20px;
+  margin-top: 30px;
   text-align: center;
   word-wrap: break-word;
-  padding: 5%;
+  padding: 5px;
+  background-color: red;*/
 }
 
-.colonne{
+.colonna3{
   float: left;
-  width: 30%;
-  height: 200px;
-  /*background-color: pink;*/
+   width: 30%;
+  /*height: 400px;*/
   margin-right: 3%;
   margin-bottom: 20px;
+  margin-top: 30px;
   text-align: center;
   word-wrap: break-word;
-    padding: 5%;
+  padding: 5px;
+  background-color: red;*/
 }
 
 
