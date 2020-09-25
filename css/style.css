@@ -92,7 +92,7 @@ section{
 .menu-header{
   float:right;
   text-align: right;
-  margin-right: 5%;
+  margin-right: 4%;
   font-size: 15px;
   padding-right: 5px;
 }
@@ -100,6 +100,7 @@ section{
   float: left;
   height: 300px;
   width: 400px;
+  padding: 50px;
   /*background-color: green;*/
 }
 #container{
@@ -215,23 +216,121 @@ background-color: red;*/
 #container-blu{
   background-color: blue;
   height: 600px;
-  text-align: center;
   color: white;
   padding: 5%;
+  text-align: center;
 
 }
 
 
-
-
-
-
-
-
-
-
+.parte-superiore{
+  float: left;
+  height: 100px;
+  width: 100%;
+  /*background-color: red;*/
+  padding: 10%;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.testo-parte-superiore{
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+}
+.parte-inferiore{
+  float: left;
+  height: 100px;
+  width: 100%;
+  /*background-color: red;*/
+  padding: 10%;
+  margin-right: 10px;
+}
+.testo-parte-inferiore{
+  float: left;
+  margin-left: 85px;
+  text-align: center;
+}
+.customers{
+  float:left;
+  height: 200px;
+  width: 200px;
+  /*background-color: red;*/
+  margin-top: 40px;
+  margin-left: 10%;
+  padding: 10px;
+  font-size: 20px;
+  text-align:center;
+}
+.customers-loghi{
+  float: left;
+  height: 200px;
+  width: 600px;
+  /*background-color: red;*/
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 10px;
+}
+.start{
+  margin-top: 50px;
+  width: 40%;
+  height: 500px;
+  /*background-color: red;*/
+  padding: 5%;
+}
+.start-img{
+ background-image: url(../img/woman.webp);
+ background-size: cover;
+ position: relative;
+ height:300px;
+ width: 200px;
+margin-left: 600px;
+margin-top: -285px;
+}
 
 footer{
-/*background-color: brown;
-height: 200px;*/
+background-color:blue;
+height: 600px;
+width: 100%;
+margin-top: 100px;
+padding: 5%;
+font-size: 12px;
+color: white;
+}
+.footer-prima-colonna{
+float:left;
+margin-left: 100px;
+padding: 2px;
+color: white;
+}
+.footer-seconda-colonna{
+float:left;
+margin-left: 50px;
+padding: 2px;
+color: white;
+}
+.footer-terza-colonna{
+float:left;
+margin-left: 50px;
+padding: 2px;
+color: white;
+}
+.footer-quarta-colonna{
+float:left;
+margin-left: 50px;
+padding: 2px;
+color: white;
+}
+.bottoni-footer{
+  padding: 10px;
+  font-size: 10px;
+  width:120px;
+  border-radius: 5%;
+  color: blue;
+  text-align: center;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  /*color: white;*/
+
 }
