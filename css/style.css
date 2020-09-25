@@ -96,7 +96,12 @@ section{
   font-size: 15px;
   padding-right: 5px;
 }
-
+.presentazione{
+  float: left;
+  height: 300px;
+  width: 400px;
+  /*background-color: green;*/
+}
 #container{
   background-image: url(../img/jumbotron.png);
  background-size: cover;
@@ -107,13 +112,12 @@ section{
 
 h1{
 
-  width: 400px;
+  /*width: 400px;*/
   font-size: 30px;
 }
 
 p{
   font-size: 15px;
-  width: 400px;
 }
 
 .bottoni{
@@ -137,7 +141,7 @@ background-color: red;*/
   margin-right: 5px;
 }
 
-.blocco-centrale *{
+.blocco-centrale {
   /*background-color: green;*/
   margin: auto;
   text-align: center;
@@ -166,6 +170,7 @@ background-color: red;*/
 #popular-feature{
   float: left;
   margin-left: 50px;
+  width: 500px;
 }
 
 .colonna1{
@@ -174,11 +179,11 @@ background-color: red;*/
   height: 400px;
   margin-right: 3%;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   word-wrap: break-word;
   padding: 5px;
-  background-color: red;*/
+  /*background-color: red;*/
 }
 
 .colonna2{
@@ -187,24 +192,33 @@ background-color: red;*/
   height: 400px;
   margin-right: 3%;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   word-wrap: break-word;
   padding: 5px;
-  background-color: red;*/
+  /*background-color: red;*/
 }
 
 .colonna3{
   float: left;
    width: 30%;
-  /*height: 400px;*/
+  height: 400px;
   margin-right: 3%;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   word-wrap: break-word;
   padding: 5px;
-  background-color: red;*/
+  /*background-color: red;*/
+}
+
+#container-blu{
+  background-color: blue;
+  height: 600px;
+  text-align: center;
+  color: white;
+  padding: 5%;
+
 }
 
 
